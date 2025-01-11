@@ -365,7 +365,7 @@
     text-align: center;
 }
 
-.donate_div{
+.donate_div {
     display: flex;
     justify-content: space-evenly;
 }
@@ -377,16 +377,32 @@
     background: #FFF;
     margin-bottom: 32px;
 }
-.donate_bg{
+
+.donate_bg {
     background: #C6E4D6;
 }
- 
-     
-.center_form{
+
+
+.center_form {
     border: 1px solid rgba(14, 14, 14, 0.15);
     text-align: center;
     padding: 30px 700px;
     text-align: center;
     margin-left: 50px;
     border-radius: 24px;
+}
+
+.donate_now_btn {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+
+.donate_style {
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }

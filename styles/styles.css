@@ -423,9 +423,9 @@ button:hover {
 .center_form {
     border: 1px solid rgba(14, 14, 14, 0.15);
     text-align: center;
-    padding: 30px 700px;
+    padding: 30px 0px;
+    width: 100%;
     text-align: center;
-    margin-left: 50px;
     border-radius: 24px;
     outline: none;
 }

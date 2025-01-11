@@ -123,10 +123,22 @@
     border-radius: 8px;
     background: #006A50;
     color: white;
-    padding: 20px;
+    padding: 17px 34px;
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+button:hover {
+    background-color: #e54b4b;
 }
 
 
@@ -200,6 +212,8 @@
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
 
 .learn_more_b2 {
@@ -210,6 +224,8 @@
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
 
 .learn_more_b3 {
@@ -220,6 +236,8 @@
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
 
 .vision_card_01 {
@@ -347,6 +365,8 @@
     padding: 20px;
     margin-bottom: 50px;
     border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
 
 /* donate_section */
@@ -390,12 +410,15 @@
     text-align: center;
     margin-left: 50px;
     border-radius: 24px;
+    outline: none;
 }
 
 .donate_now_btn {
     text-align: center;
     margin-top: 32px;
     margin-bottom: 80px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
 }
 
 .donate_style {
@@ -405,4 +428,59 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/*newsletter_section */
+
+.newsletter_section {
+    background-color: #C6E4D6;
+    border-radius: 24px;
+
+    padding: 100px;
+}
+
+.subscribe_container {
+    display: flex;
+    border-radius: 8px 0px 0px 8px;
+    justify-content: center;
+}
+
+.email_input {
+    border: none;
+    padding: 10px 150px;
+    font-size: 16px;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.subscribe_button {
+    background-color: #00704a;
+    color: white;
+    border: none;
+    padding: 30px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.subscribe_button:hover {
+    background-color: #ec2626;
+}
+
+.subscribe_h1 {
+    color: #0E0E0E;
+    text-align: center;
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.newsletter_p {
+    margin-top: 80px;
 }

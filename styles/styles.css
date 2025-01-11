@@ -106,7 +106,9 @@
     font-style: italic;
 }
 
-
+body {
+    background-color: #ededf2;
+}
 
 .banner {
     background-color: #C6E4D6;
@@ -207,37 +209,52 @@ button:hover {
 .learn_more_b1 {
     border-radius: 8px;
     background: #5490F5;
-    color: white;
     padding: 20px;
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
     cursor: pointer;
     transition: background-color 0.4s ease;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .learn_more_b2 {
     border-radius: 8px;
     background: #09A15C;
-    color: white;
     padding: 20px;
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
     cursor: pointer;
     transition: background-color 0.4s ease;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .learn_more_b3 {
     border-radius: 8px;
     background: #FFC239;
-    color: white;
     padding: 20px;
     margin-left: 30px;
     margin-bottom: 50px;
     border: none;
     cursor: pointer;
     transition: background-color 0.4s ease;
+    color: #FFF;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .vision_card_01 {

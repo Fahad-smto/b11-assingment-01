@@ -128,7 +128,7 @@
     margin-bottom: 50px;
     border: none;
 }
- 
+
 
 .banner_h1 {
     color: #0E0E0E;
@@ -201,6 +201,7 @@
     margin-bottom: 50px;
     border: none;
 }
+
 .learn_more_b2 {
     border-radius: 8px;
     background: #09A15C;
@@ -210,6 +211,7 @@
     margin-bottom: 50px;
     border: none;
 }
+
 .learn_more_b3 {
     border-radius: 8px;
     background: #FFC239;
@@ -260,4 +262,37 @@
 .card_margin {
     margin-left: 20px;
     margin-top: 24;
+}
+
+/* paragraph_section */
+.paragraph_section {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
+    position: relative;
+    padding: 48px 24px;
+    margin-top: 32px;
+}
+
+.paragraph_section_img {
+    position: absolute;
+}
+
+.paragraph_section_p {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.paragraph_section_h1 {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    
 }
